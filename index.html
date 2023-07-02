@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+	<title>estacionamento</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body onload="mostraPatio()">
+	<div class="conteiner">
+<div class="headerClearFix">
+			<h2>Estacionamento<small> by: William Matias </small></h2>
+		
+		<div class="jumbotron">
+			<form id="formulario">
+				<div class="form-group">
+					<label for="">Modelo do veiculo</label>
+					<input type="text"id="modeloVeiculo"class="form-control">
+				</div>
+				<div class="form-group">
+					<label for="">Placa do veiculo</label>
+					<input type="text"id="placaVeiculo"class="form-control">
+				</div>
+				<button type="submit"class="btn btn-primary">Adicionar</button>
+			</form>
+		</div>		
+	</div>
+			<div class="row marketing">
+				<div class="col-lg-12">
+						<table class="table table-hover">
+							<thead>
+								<tr>
+									<th> MODELO </th>
+									<tH> PLACA </tH>
+									<th> ENTRADA </th>
+									<th> FINALIZAR </th>
+								</tr>
+							</thead>
+							<tbody id="resultados"></tbody>
+						</table>
+				</div>
+					
+			</div>
+
+</div>
+	<script src="js/main.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	
+</body>
+</html>
